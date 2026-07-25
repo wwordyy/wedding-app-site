@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  
+}
+
+@media (min-width: 1024px) {
+    * {
+        cursor: none !important;
+    }
+}
+
+@font-face{
+  font-family: "Travels-Regular";
+  src: url("./assets/fonts/Travels-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Travels-Black";
+  src: url("./assets/fonts/Travels-Black.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face{
+  font-family: "Travels-Medium";
+  src: url("./assets/fonts/Travels-Medium.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face{
+  font-family: "Travels-Demibold";
+  src: url("./assets/fonts/Travels-DemiBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Travels-Light";
+  src: url("./assets/fonts/Travels-Light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+@theme {
+  --font-tr: "Travels-Regular", serif;
+  --font-tb: "Travels-Black", serif;
+  --font-tm: "Travels-Medium", serif;
+  --font-tl: "Travels-Light", serif;
+  --font-tdm: "Travels-DemiBold", serif;
+}
+
+
