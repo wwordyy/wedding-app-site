@@ -36,12 +36,12 @@ export default function Welcome() {
                     variants={item}
                     className="lg:w-[45%]"
                 >
-                    <h2 className="font-tdm text-4xl text-stone-900 uppercase leading-tight 
+                    <h2 className="font-tdm text-4xl text-stone-900 uppercase  
                                                 md:text-5xl md:w-max    
-                                                lg:text-6xl lg:w-max lg:text-right lg:font-tm lg:px-16
-                                                xl:text-7xl
-                                                2xl:px-32
-                                                2xl:text-8xl" >
+                                                lg:text-6xl lg:w-max lg:text-right lg:px-16 
+                                                xl:text-7xl 
+                                                2xl:px-42
+                                                2xl:text-8xl md:leading-none" >
 
                         Дорогие <br  />гости
                     </h2>
