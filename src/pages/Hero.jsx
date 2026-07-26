@@ -73,7 +73,7 @@ export default function Hero() {
                             )}
                         </motion.button>
 
-                        <AnimatePresence>
+                       <AnimatePresence>
                                 {showHint && !playing && (
                                     <motion.div
                                         initial={{ opacity: 0, x: -8 }}
@@ -82,17 +82,19 @@ export default function Hero() {
                                         transition={{ duration: 1.5 }}
                                         className='absolute top-1/2 -translate-y-1/2 left-full ml-2 
                                                                 whitespace-nowrap
-                                                                bg-black/70 lg:bg-stone-100/10 
+                                                                bg-black/20 lg:bg-stone-100/10 
                                                                 text-white lg:text-stone-700
                                                                 text-xs md:text-sm 
-                                                                lg:border lg:border-stone-900/10 lg:shadow-sm lg:backdrop-blur-sm
+                                                                border border-white/20 lg:border-stone-900/10 
+                                                                shadow-sm backdrop-blur-sm
                                                                 px-3 py-1.5 md:px-4 md:py-2 rounded-full
                                                                 pointer-events-none'
                                     >
                                         Включи меня 
                                         <span className='absolute top-1/2 -translate-y-1/2 -left-1 
-                                                                w-2 h-2 bg-black/70 lg:bg-stone-100/10 
-                                                                lg:border-l lg:border-b lg:border-stone-900/10
+                                                                w-2 h-2 bg-black/20 lg:bg-stone-100/10 
+                                                                border-l border-b border-white/20 lg:border-stone-900/10
+                                                                backdrop-blur-sm
                                                                 rotate-45'/>
                                     </motion.div>
                                 )}
