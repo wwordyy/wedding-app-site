@@ -79,7 +79,7 @@ export default function Hero() {
                                         initial={{ opacity: 0, x: -8 }}
                                         animate={{ opacity: 1, x: 0 }}
                                         exit={{ opacity: 0, x: -8 }}
-                                        transition={{ duration: 1.5 }}
+                                        transition={{ duration: 3 }}
                                         className='absolute top-1/2 -translate-y-1/2 left-full ml-2 
                                                                 whitespace-nowrap
                                                                 bg-black/20 lg:bg-stone-100/10 
