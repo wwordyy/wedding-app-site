@@ -9,7 +9,7 @@ export default function Welcome() {
         <section id='welcome' className='
                                             relative flex 
                                             px-6 pt-24 pb-32 bg-stone-100 overflow-hidden
-                                            select-none'>
+                                            select-none '>
 
   
             <div className='absolute top-10 right-10 opacity-100'>

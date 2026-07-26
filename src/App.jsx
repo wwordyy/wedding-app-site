@@ -14,26 +14,31 @@ import CustomCursor from './components/Cursor'
 function App() {
 
   const [loading, setLoading] = useState(true);
-
+    
   return (
-    <>
+    
+    <div className='min-h-screen bg-white'>
         <CustomCursor/>
+
         <AnimatePresence>
-          {loading && <Loader onComplete={() => setLoading(false)}/>}
+            {loading && <Loader onComplete={() => setLoading(false)}/>}
 
         </AnimatePresence>
 
-        <div className='flex flex-col'>
-          <Hero/>
-          <Welcome/>
-          <Venue/>
-          <Countdown/>
-          <Wishes/>
-          <PersonContacts/>
-          <TelegramGroup/>
-          <Farewell/>
-        </div>
-    </>
+          {!loading  && (
+            <div className='flex flex-col'>
+              <Hero/>
+              <Welcome/>
+              <Venue/>
+              <Countdown/>
+              <Wishes/>
+              <PersonContacts/>
+              <TelegramGroup/>
+              <Farewell/>
+            </div>
+          )}
+
+    </div>
   )
 }
 

@@ -116,7 +116,7 @@ export default function Wishes() {
 
                     <motion.a
                         variants={item}
-                        href="https://mayak.help/"
+                        href="https://mayak.help/donate/?comment=%D1%81%D0%B2%D0%B0%D0%B4%D1%8C%D0%B1%D0%B0+%D0%B4%D0%B5%D1%82%D1%8F%D0%BC"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05, backgroundColor: "#fdb8c1" }}

@@ -25,12 +25,13 @@ export default function Loader({ onComplete }) {
     }, [onComplete])
 
     return (
+            
         <motion.div
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
-            className='fixed inset-0 z-[100] flex flex-col items-center justify-center 
-                                    bg-stone-50 px-6'
+            className='fixed inset-0  flex flex-col items-center justify-center 
+                                    bg-white border-none px-6'
         >
             <span className='font-tr text-xl md:text-3xl text-stone-600 mb-8 text-center'>
                 Загружаем счастье... почти готово
@@ -47,6 +48,8 @@ export default function Loader({ onComplete }) {
             <span className='text-xs text-stone-400 tracking-[0.2em] uppercase mt-4 font-tl'>
                 {Math.round(progress)}%
             </span>
+
+  
         </motion.div>
     )
 }
